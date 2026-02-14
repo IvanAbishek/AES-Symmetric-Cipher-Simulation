@@ -18,7 +18,12 @@ Key Learning Outcomes
 Technologies Used
 Python, PyCryptodome, Socket Programming
 
-## Server Program:
+## How to Run
+1. Run aes_server.py
+2. Run aes_client.py
+3. Send message
+
+## AES-Server Program:
 ```
 import socket
 from Crypto.Cipher import AES
@@ -51,7 +56,7 @@ print("Decrypted Message:", decrypted_msg.decode())
 
 conn.close()
 ```
-## Client Program:
+## AES-Client Program:
 
 ```
 import socket
@@ -76,11 +81,11 @@ print("Encrypted Message Sent:", encrypted_msg)
 client.close()
 
 ```
-## Server:
+## AES-Server:
 
 <img width="544" height="93" alt="image" src="https://github.com/user-attachments/assets/2ce823e9-5ef9-4df1-baf3-02db42635d53" />
 
-## Client:
+## AES-Client:
 
 <img width="324" height="44" alt="image" src="https://github.com/user-attachments/assets/78bdabb1-87cc-40a1-9e8a-584dc59a0390" />
 
