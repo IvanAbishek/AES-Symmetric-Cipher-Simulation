@@ -18,6 +18,11 @@ Key Learning Outcomes
 Technologies Used
 Python, PyCryptodome, Socket Programming
 
+## Features
+- AES Symmetric Encryption
+- Client–Server Communication
+- Tested between two devices
+
 ## How to Run
 1. Run aes_server.py
 2. Run aes_client.py
