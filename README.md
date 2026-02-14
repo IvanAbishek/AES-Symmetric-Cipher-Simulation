@@ -1,22 +1,22 @@
 # AES-Symmetric-Cipher-Simulation
-Built a Python client-server project demonstrating secure communication using AES symmetric encryption. The server generates a key, the client encrypts messages, and the server decrypts them. Learned socket programming, key handling, padding, and secure data transfer. 
-First practical step into cybersecurity and cryptography basics project.
+Built a Python client–server project demonstrating secure communication using AES symmetric encryption. The server generates a key, the client encrypts messages, and the server decrypts them successfully. Tested between two devices on the same network.
 
 ## Description:
-This project demonstrates how secure communication can be implemented using AES symmetric encryption in a client–server model.
+This project demonstrates secure communication using AES symmetric encryption in a Python client–server model.
+The server generates a random AES key and waits for a client connection. The client receives the key, encrypts a message, and sends the encrypted data back. The server decrypts the message to verify secure transmission.
 
-The server generates a random AES key and waits for client connection.
-The client receives the key, encrypts a user message using AES, and sends the encrypted data back.
-The server then decrypts the message to verify secure transmission.
+Key Learning Outcomes:
+- Understanding AES encryption process
+- Working with Python socket programming
+- Implementing symmetric key cryptography
+- Handling padding and byte conversion
 
-Key Learning Outcomes
-• Understanding AES encryption process
-• Working with Python socket programming
-• Implementing symmetric key cryptography
-• Handling encryption padding and byte conversion
 
-Technologies Used
-Python, PyCryptodome, Socket Programming
+Technologies Used:
+- Python
+- PyCryptodome
+- Socket Programming
+
 
 ## Features
 - AES Symmetric Encryption
@@ -25,8 +25,10 @@ Python, PyCryptodome, Socket Programming
 
 ## How to Run
 1. Run aes_server.py
-2. Run aes_client.py
-3. Send message
+2. Run aes_client.py on another device
+3. Enter a message
+4. Server decrypts the message received from the client
+
 
 ## AES-Server Program:
 ```
