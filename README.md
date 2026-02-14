@@ -71,7 +71,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(("192.168.179.1", 12345))
+client.connect(("<Server's IP Address>", 12345))
 
 # Receive AES key from server
 key = client.recv(1024)
